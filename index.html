@@ -19,6 +19,7 @@
     color:white;
     height:350px;
     justify-items:center;
+    padding:10px;
     border: 3px solid white;
     border-radius:10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -50,10 +51,10 @@
 </head>
 <body>
  <div class="kotak">
-<h1>Password Generator</h1>
+<h1 style="font-size:35px;">Password Generator</h1>
 <input type="text" id="passwordBox" readonly placeholder="Hasil password">
 <br><br>
-<button onclick="generatePassword()">Generate</button>
+<button onclick="generatePassword()">Generate</button><br>
 <button onclick="copyPassword()">Copy</button>
 </div>
 <script>
